@@ -1,5 +1,5 @@
-DROP PROCEDURE IF EXISTS "addColumnIfNotExists";
-CREATE PROCEDURE "addColumnIfNotExists"(
+DROP PROCEDURE IF EXISTS `addColumnIfNotExists`;
+CREATE PROCEDURE `addColumnIfNotExists`(
 	IN tableName tinytext,
 	IN fieldName tinytext,
 	IN fieldDef text)
